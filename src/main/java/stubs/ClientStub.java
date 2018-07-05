@@ -36,7 +36,7 @@ public class ClientStub {
         clientList.add(client1);
         clientList.add(client2);
         clientList.add(client3);
-        return null;
+        return clientList;
     }
 
 
