@@ -14,6 +14,6 @@ public class ContractRepositoryImpl implements ContractRepository {
         if(contract.getNumber() == number){
             return contract;
         }
-        return null;
+        return null ;
     }
 }
