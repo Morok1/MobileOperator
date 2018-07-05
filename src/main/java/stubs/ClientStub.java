@@ -7,23 +7,6 @@ import java.util.Date;
 import java.util.List;
 
 public class ClientStub {
-    /*
-    *
-    * private String name;
-    private String lastName;
-    private Date birthDay;
-    //TODO Consider format of passport data(may be regular expression)
-    private String passportData;
-    //TODO consider format of address
-    private String address;
-
-    private List<Contract> contractList;
-    //TODO consider format or validator
-    private String email;
-    private String password;
-
-    * */
-
     public Client initOfOneClient(){
         Client client = new Client();
         String name = "Vasya";
