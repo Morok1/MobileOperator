@@ -17,6 +17,9 @@ public class Client {
     private String email;
     private String password;
 
+    public Client() {
+    }
+
     public String getName() {
         return name;
     }
